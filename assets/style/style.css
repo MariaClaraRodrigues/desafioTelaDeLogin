@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontePrincipal: 'Lato', sans-serif;
+    --fonteSecundaria: 'Merriweather', serif;
+    --corPrincipal: #1A202C;
+}
+
+body {
+    display: flex;
+    color: var(--corPrincipal);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F7FAFC;
+    width: 720px;
+    height: 100vh;
+}
+
+img {
+    width: 400px;
+    height: 330px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.container {
+    width: 350px;
+    height: 456px;
+    flex-direction: row;
+    margin: 213px auto 0 auto;
+}
+
+.welcome {
+    font-family: var(--fonteSecundaria);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.login {
+    font-family: var(--fonteSecundaria);
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 39px;
+}
+
+label {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+input {
+    display: block;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    Width: 350px;
+    height: 50px;
+    margin: 11px 0;
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+input::placeholder {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 14px;
+    text-indent: 10px;
+    color: var(--corPrincipal);
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+input#remember {
+    background: #F7FAFC;
+    border: 1px solid #E8E8E8;
+    width: 15px;
+    height: 15px;
+}
+
+.lembrar {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 14px;
+    text-indent: 5px;
+}
+
+.linkSenha {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B6CB0;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.btns {
+    width: 347px;
+}
+
+.entrar {
+    background: #04C45C;
+    border-radius: 5px;
+    border: none;
+    font-family: var(--fontePrincipal);
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    width: 347px;
+    height: 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.loginGoogle {
+    background: #1A202C;
+    border-radius: 5px;
+    font-family: var(--fontePrincipal);
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    width: 347px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.divCadastro {
+    width: 233px;
+    height: 19px;
+    margin: 162px auto 0 auto;
+}
+
+.fazerConta {
+    text-align: center;
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--corPrincipal);
+}
+
+span {
+    color: #2B6CB0;
+    cursor: pointer;
+}

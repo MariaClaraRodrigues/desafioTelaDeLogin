@@ -1,0 +1,14 @@
+@media (min-width: 380px) and (max-width: 1115px) {
+    .content {
+        display: none;
+    }
+    img {
+        display: none;
+    }
+    .container {
+        margin: 71px auto 0 auto;
+    }
+    .divCadastro {
+        margin: 138px auto 0 auto;
+    }
+}
