@@ -1,4 +1,4 @@
-@media (min-width: 380px) and (max-width: 1115px) {
+@media (min-width: 360px) and (max-width: 1115px) {
     .content {
         display: none;
     }
@@ -9,6 +9,6 @@
         margin: 71px auto 0 auto;
     }
     .divCadastro {
-        margin: 138px auto 0 auto;
+        margin: 130px auto 0 auto;
     }
 }
